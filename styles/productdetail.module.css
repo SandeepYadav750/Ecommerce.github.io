@@ -1,0 +1,232 @@
+.productbox{
+    padding: 10px;
+    box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+}
+.productimages{
+    border: 1px solid #ddd;
+}
+.productimages figure {
+    width: 330px;
+    height: 375px;
+    background-repeat: no-repeat;
+}
+.productimages figure:hover .demotrigger {
+    opacity: 0;    
+    /* transform: scale(2); */
+  }
+.demotrigger{
+    display: block;
+    width: 100%;
+    pointer-events: none;
+    /* transition: all 2s ease-in; */
+}
+.subimage{
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subimage:hover{
+    border: 1px solid #090d58;
+    cursor: pointer;
+}
+.aboutProduct{
+    padding-top: 40px;
+}
+.pro_heading h2{
+    font-weight: 600;
+    line-height: 15px;
+    color: #090e43;
+}
+
+.reviews {
+    margin: 10px 0;
+}
+.reviews span {
+    font-size: 14px;
+    color: #7e85b4;
+}
+.reviews svg {
+    font-size: 16px;
+    color: #ffd700;
+}
+.item_price{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.price{
+    color: #676da7;
+    margin-right: 10px;
+    font-weight:600;
+}
+.discountprice{
+    color: #fa78b3;
+    font-size: 0.7rem;
+    font-weight:600;
+}
+.colortype label{
+    color: #676da7;
+    font-weight: 600;
+}
+.prodetailpara p{
+    color: #d1d1d1;
+}
+
+.cardbtn{
+    padding: 15px 17px;
+    background-color: #676da7;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+}
+.buycart {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 100px;
+}
+.buycartbtn{
+    background: none;
+    color: #676da7;
+    font-weight: 600;
+    border: none;
+}
+.loginlink{
+    border: 1px solid #ddd;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #ddd;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.loginlink:hover {
+    border: 1px solid #090d58;
+    cursor: pointer;
+    color: #090d58;
+    box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+}
+.social_media{
+    display: flex;
+    align-items: center;
+}
+.social_media ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.social_media ul li{
+    transition: all .6s ease-in-out;
+}
+.social_media ul li img:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.7);
+}
+.sharelabel{    
+    color: #676da7;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 5px 10px 5px 0;
+}
+.sharelabel.sharelabelbrand{
+    width: auto;
+    margin-bottom: 7px;
+}
+.productabout_title{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.product_about{
+    background: #f9f8ff;
+}
+.productabout_title h6{
+    font-size: 18px;
+    font-weight: 600;
+    padding-right:20px;
+    color: #161a75;
+}
+.productabout_title h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.productabout_des h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #161a75;
+}
+.productabout_des p{
+    color:#c5c9dd;
+    text-align: justify;
+}
+.productabout_list h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #161a75;
+}
+.productabout_list li{
+    margin: 5px 0;
+    color: #c5c9dd;
+}
+.productabout_list svg{
+    color: #00255a;
+    margin-right: 10px;
+}
+/* related product start */
+.relathead{
+    text-transform: capitalize;
+    color: #090d58;
+  }
+  .relatedimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reatedhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ .reatedhead h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    color: #090d58;
+  }
+  .reviews {
+    color: #ffd700;
+  }
+  .relatedprice{
+    font-size: 15px;
+    font-weight: 600;
+    color: #090d58;
+  }
+/* related product end */
+
+/* Zoom start */
+  
+  .demo-trigger {
+    display: inline-block;
+    width: 30%;
+    /* float: left; */
+  }
+  
+  @media (max-width: 610px) {
+  
+    .aboutProduct, .demo-trigger {
+      float: none;
+    }
+  
+    .demo-trigger {
+      display:block;
+      width: 50%;
+      max-width:200px;
+      margin: 0 auto;
+    }
+  
+  }
+/* Zoom end */

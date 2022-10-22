@@ -1,0 +1,32 @@
+.uniquesection{
+    color: #ddd;
+    background: #f1f0ff;
+}
+.uniquedetail {
+    color: #666;
+}
+.uniquedetail h2{
+    color: #090d58;
+    font-weight: 600;
+}
+.uniquedetail ul li {
+    margin: 7px 0;
+}
+.uniquecartprice{
+    display: flex;
+    align-items: center;
+}
+.uniqueprice{
+    margin-left: 17px;
+    display: flex;
+    flex-direction: column;
+}
+.uniqueprice span{
+    font-size: 14px;
+    color: #090d58;
+    font-weight: 600;
+}
+.uniquedetail ::marker {
+    color: #47d6a5;
+    font-size: 26px;
+  }

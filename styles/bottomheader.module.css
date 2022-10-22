@@ -1,0 +1,21 @@
+.navbrandname{
+    margin-right: 25px;
+}
+.navbrands {
+    font-weight: 600;
+    font-size: 25px !important;
+}
+.navbrands:hover {
+    text-decoration: underline;
+}
+.botheadul .navLink {
+    padding: 10px 20px;
+    margin: 0 10px;
+    /* font-size: 18px; */
+}
+.FormControl{
+    border-radius: 0 !important;
+}
+.botheadsvg svg{
+    font-size: 25px;
+}

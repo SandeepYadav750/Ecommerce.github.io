@@ -1,0 +1,26 @@
+.bannerids{
+    position: relative;
+    background: #f2f0ff;
+}
+.bannerposimg{
+    position: absolute;
+    top: 0px;
+    left: -69px;
+}
+.bannerdetail p{
+    color: #666;
+    font-weight: 600;
+}
+p.bannerheadpara {
+    color: rgb(251 46 134);
+    font-weight: 800;
+}
+.bannerdetail h1{
+    font-weight: 700;
+}
+
+@media (max-width:992px) {
+    .bannerposimg{
+        display: none;
+    }
+}

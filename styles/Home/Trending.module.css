@@ -1,0 +1,69 @@
+.trendingbox{
+    padding: 5px 10px 10px;    
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+}
+.trendingimg{
+    background: #f5f6f8;
+    margin-bottom: 15px;
+}
+.trendingbody{
+    text-align: center;
+}
+.trendingtitle h6{
+    color: #090d58;
+    font-weight: 600;
+}
+.trendingcurrcount{
+    color: #090d58;
+    font-weight: 600;
+}
+.trendingdiscount{
+  color:  #666;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* offer row start */
+.offprobox{
+    padding: 30px 20px 25px;
+    background: #eeeffb;
+    margin-bottom: 10px;
+}
+.offprohead{
+    margin-bottom: 10px;
+}
+.offprohead h5 {
+    color: #090d58;
+    font-weight: 600;
+}
+.offprobtn{
+    color: #fb2e86;
+    font-weight: 600;
+    border: none;
+    background: none;
+    padding: 0;
+}
+.offprobtn:hover{
+    text-decoration: underline;
+}
+.offproimg{
+    background: #eeeffb;
+    margin: 5px 0;
+    display: flex;
+    justify-content: end;
+}
+.offprosideimg{
+    background: #f5f6f8;
+    margin: 5px 0;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+.offprotitle p{
+    margin: 0;
+    color: #090d58;
+    font-weight: 600;
+}

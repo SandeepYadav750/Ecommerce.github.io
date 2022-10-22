@@ -1,0 +1,60 @@
+.filterby{
+    margin: 100px 0;
+}
+.filtertitle h4{
+    color: #2f3684;
+    font-weight: 600;
+    font-size: 20px;
+}
+.filtertitle p{
+    color: #989ec3;
+}
+.filtercat {
+    display: flex;
+    align-items: center;
+}
+.category{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-right: 10px;
+}
+.category label{
+    margin-right: 10px;
+    color: #989ec3;
+    font-weight: 600;
+}
+.filtersslash{
+    visibility: hidden;
+}
+/* .category .perpage{
+    width: fit-content;
+} */
+.category svg{
+    margin: 0 3px;
+    cursor: pointer;
+    color: #989ec3;
+}
+.form-select {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 2 !important;
+    color: #989ec5 !important;
+}
+
+@media (min-width:767px) and (max-width:991px) {
+    .category label{
+        margin-right: 2px;
+        font-size: 13px;
+    }
+}
+@media (max-width:767px) {
+    .filterby{
+        margin: 20px 0;
+    }
+    .category label{
+        margin-right: 3px;
+        width: fit-content;
+        font-size: 13px;
+    }
+}

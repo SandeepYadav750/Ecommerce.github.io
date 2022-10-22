@@ -1,0 +1,93 @@
+
+.shoplistbody{
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.shoplistbox{
+    padding: 20px;
+    box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+}
+.Shoplisttitle{
+    display: inline-flex;
+    align-items: baseline;
+}
+.Shoplisttitle h4{
+    display: inline-block;
+    color: #090d58;
+    font-weight: 600;
+}
+.allcolor{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.browncolor {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #da9237;
+    margin-right: 5px;
+}
+.redcolor {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fd1581;
+    margin-right: 5px;
+}
+.bluecolor {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #5430df;
+    margin-right: 5px;
+}
+.shoplistprice{
+    margin-right: 20px;
+}
+.shoplistcurrcount{
+    font-size: 15px;
+    font-weight: 600;
+    color: #5e65a0;
+}
+.shoplistdiscount{
+        font-size: 12px;
+    font-weight: 600;
+    color: #fb5fa3;
+    margin-left: 10px;
+}
+.shoplistreview{
+    color: #ffd700;
+}
+.Shoplistpara p{
+    color: #c7ccd4;
+    margin: 10px 0;
+}
+.shoplistcart ul{display: flex; align-items: center;}
+
+.shoplistcart ul li svg{    
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    background: #f2f2f2;
+    color: #090d58;
+}
+.shoplistcart ul li svg:hover{    
+    box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    
+}
+
+@media (max-width:1200px){
+    .shoplistbody{
+        height: auto;
+    }
+}

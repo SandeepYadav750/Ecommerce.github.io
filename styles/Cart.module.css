@@ -1,0 +1,101 @@
+.mainheading h2 {
+    color: #090d58;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+}
+.carttable th{
+    color: #090d58;
+}
+.carttable td{
+    vertical-align: middle;
+    color: #090d58;
+}
+.cartimg_title{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.cartimg_title img{
+    margin-right: 5px !important;
+}
+.xcross {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 26%;
+    height: 15px;
+    width: 15px;
+    font-size: 17px;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutpro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.carttablesubname{
+    color: #d1d1d1;
+    font-size: 14px;
+}
+.carttablename{
+    font-size: 15px;
+    font-weight: 600;
+}
+.carttableprice{
+    font-weight: 600;
+    font-size: 18px;
+}
+.carttwobtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.carttotalhead h6{
+    color: #090d58;
+    font-weight:600;
+}
+.carttotalprice{
+        padding: 20px;
+        margin-bottom: 15px;
+        background: #f4f3fd;
+}
+.sbtotalprice{
+    color: #090d58;
+    font-weight: 700;
+    font-size: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+span.Greencolor {
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #16d26d;
+}
+.sbtotalpara{
+    font-size: 11px;
+    color: #d1d1d1;
+}
+.carttotalprice input {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    font-size: 14px;
+    background : #f4f3fd !important
+    ;
+}

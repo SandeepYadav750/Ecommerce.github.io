@@ -1,0 +1,131 @@
+.navbrands {
+    color: rgb(255 71 101) !important;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.navbrands:hover {
+    color: rgb(252, 110, 133) !important;
+    text-decoration: underline;
+}
+.navbrands:focus {
+    color: rgb(252, 110, 133) !important;
+    text-decoration: underline;
+}
+
+.cont_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d1d1d1;
+}
+.cont_info h4, .shipping_add h4{
+    color: #090d58;    
+}
+.cont_info input, .shipping_add input, select.selectcss{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+.cont_login{
+    color: #d1d1d1;
+}
+.totalpricebox{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+.pricepay{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cartimg_title{
+    display: flex;
+    align-items: center;
+}
+.cartimg_title img{
+    margin-right: 5px !important;
+}
+.aboutpro{
+    display: flex;
+    flex-direction: column;
+}
+.carttablesubname{
+    color: #d1d1d1;
+    font-size: 14px;
+}
+.pricestyle{
+    color: #5e65a0;
+}
+.carttablename{
+    color: #090d58;
+    font-size: 15px;
+    font-weight: 600;
+}
+.carttotalprice{
+        padding: 20px;
+        margin-bottom: 15px;
+        background: #f5f4fd;
+}
+.sbtotalprice{
+    color: #090d58;
+    font-weight: 700;
+    font-size: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+span.Greencolor {
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #16d26d;
+}
+.sbtotalpara{
+    font-size: 11px;
+    color: #d1d1d1;
+}
+/* PAYMENT START */
+.shipadd{
+    padding: 10px 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+}
+.shipadd_detail{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shipconthead{
+    padding-right: 20px;
+    color: #666;
+}
+.shipedit{
+    float: right;
+}
+.completeorder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* PAYMENT END */
+
+
+@media (min-width:992px) {
+    .cont_info h4, .shipping_add h4{
+        font-size: 25px;        
+    }
+    .bookinfo{
+        padding-right: 40px;
+    }
+}

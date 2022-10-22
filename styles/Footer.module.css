@@ -1,0 +1,127 @@
+/* new footer start */
+.footer{
+    padding: 20px 0;
+}
+.footerimg{
+    text-align: center;
+}
+.footerimg img{
+    padding: 10px 20px !important;
+}
+/* new footer end */
+
+.newsletter{
+    background-color: #f3f4f8;
+    padding: 15px 0;
+}
+.socialmedia{
+    align-items: center;
+}
+.socialmedia ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.socialmedia ul li{
+    transition: all .6s ease-in-out;
+}
+.socialmedia ul li img:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.7);
+}
+.newsletter h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+.newsletterinput{
+    position: relative;
+}
+.newsletterinput input{
+    padding: 10px;
+    font-weight: 600;
+    color: #ced4da;
+}
+.newsletterbtn{
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translate(0%, -50%);
+    counter-reset: #fff;
+
+}
+.Footer{
+    background-color: #090d58;
+    color: #fff;
+    padding: 40px 0 10px;
+}
+.contactlink{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.contactlink li:before{
+    position: absolute;
+    left: 0;
+    top: 4px;
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('/images/icon-image.png') no-repeat #4a5678;
+    border-radius: 50%;
+}
+.contactlink li{
+    position: relative;
+    padding: 10px;
+    padding-left: 39px;
+    min-height: 30px;
+    line-height: 18px;
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    color: #e5e5e5;
+    font-size: 14px;
+}
+.contactlink li.address:before{
+    background-position: -8px -10px;
+}
+.contactlink li.emailid:before{
+    background-position: -11px -51px;
+}
+.contactlink li.mobnumber:before{
+    background-position: -11px -91px;
+}
+.contactlink a{ 
+    text-decoration: none;
+}
+.contactlink a:hover,.contactlink a li:hover{ 
+    text-decoration: underline;
+    color: #fe9931;
+}
+.footerheading{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.footerlist {
+    margin-bottom: 15px;
+}
+.footerlist li a{
+    color: #e5e5e5;
+    text-decoration: none;
+    padding-left: 5px;
+    font-weight: 600;
+    transition: padding-left 0.3s ease-in-out;
+}
+.footerlist li a:hover{
+    color: #fe9931;
+    padding-left: 10px;
+}
+.footercpyright {
+    margin: 30px 0 0;
+    padding: 30px 0 0;
+    text-align: center;
+    border-top: 1px solid;
+}
+.footercpyright h4 {
+    font-size: 1rem;
+}

@@ -1,0 +1,52 @@
+.discountitemtab ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discountitemtab ul li a{
+    color: #090d58;
+    font-weight: 600;
+    margin: 12px;
+    text-decoration: none;
+}
+.discountitemtab ul li a:hover{
+    color: rgb(251 46 134);
+    text-decoration: underline;
+}
+.discountitembox h1{    
+    color: #090d58;
+    font-weight: 600;
+}
+.discountitembox p{
+    color: #d6dae1;
+}
+p.discountitempara {
+    color: rgb(251 46 134);
+    font-weight: 600;
+}
+.discountitemlist{
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+.discountitemlist li{
+    margin: 5px 0;
+    width: 50%;
+    float: left;
+    color: #d6dae1;
+}
+.discountitemlist li svg{
+    margin-right: 10px;
+    color: #aa8dc6;
+}
+
+@media (max-width:767px) {
+    .discountitemtab ul{
+        display: inline-block;
+    }
+    .discountitemtab ul li{
+        width: fit-content;
+        float: left;
+        margin: 10px 5px;
+    }
+}

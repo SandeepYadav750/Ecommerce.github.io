@@ -1,0 +1,118 @@
+
+
+/* card start */
+
+.shopgriditem{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+   /* box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    
+     background: #f5f6f8; */
+}
+.shopgridcart{
+    display: none;
+}
+.shopgriditem:hover .shopgridcart{
+    display: block;
+}
+.shopgriddetail{
+    height: 34px;
+    margin-bottom: 5px;
+}
+.shopgriddinone{
+    display: none;
+}
+.shopgriditem:hover .shopgriddinone{
+    display: block;
+}
+.shopgridcart ul{    
+    position: absolute;
+    /* display: flex; */
+    align-items: center;
+    z-index: 1;
+    top: 45%;
+    left: 5%;
+}
+.shopgridcart ul li svg{    
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 50%;
+    font-size: 23px;
+    background: #f2f2f2;
+    color: #090d58;
+}
+.shopgridcart ul li svg:hover{    
+    box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    
+}
+/* .shopgridimg{
+    background: #f5f7fb;
+    margin-bottom: 20px;
+} */
+.shopgridbody{
+    text-align: center;
+}
+.shopgridtitle h6{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    color: #090d58;
+    text-transform: capitalize;
+}
+.allcolor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.allcolor span{
+    margin-right: 10px;
+}
+.browncolor {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #da9237;
+    margin-right: 5px;
+}
+.redcolor {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fd1581;
+    margin-right: 5px;
+}
+.bluecolor {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #9358e5;
+    margin-right: 5px;
+}
+.shopgridprice{
+    width: auto;
+}
+.shopgridcurrcount{
+    font-size: 15px;
+    font-weight: 600;
+    color: #5e65a0;
+}
+.shopgriddiscount{
+    font-size: 12px;
+    font-weight: 600;
+    color: #fb5fa3;
+    margin-left: 10px;
+}
+
+/* card end */
+

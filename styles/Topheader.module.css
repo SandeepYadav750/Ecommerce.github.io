@@ -1,0 +1,22 @@
+.topheaders{
+    background: #7e33e0;
+}
+.navitemlist{
+    margin-right: 20px;
+}
+.navitemlist a{
+    color: #fbf2f2;
+}
+.navitemlist svg{
+    margin-right: 10px;
+}
+.sandropdown,.sandropdown a{
+    color: #fbf2f2 !important;
+}
+.sandropdown svg {
+    margin-bottom: 6px;
+    margin-left: 2px;
+}
+/* .sandropdown:hover,.sandropdown a:hover{
+    color: rgb(252, 110, 133) !important;
+} */

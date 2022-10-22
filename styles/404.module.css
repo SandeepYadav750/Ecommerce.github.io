@@ -1,0 +1,36 @@
+
+.errordes {
+    text-transform: uppercase;
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+    /* background-image: url('/images/404web.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 80px 0; */
+}
+.backopacity{
+    position: relative;
+}
+.backopacity::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(239 239 239 / 25%);
+    z-index: 2;
+}
+.errordes p{    
+    font-weight: 700;
+    color: #1e2272;
+}
+@media (max-width:767px) {
+    .errordes {
+        text-transform: uppercase;
+        width: 100%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,192 @@
+.blogdetailimg img{
+    border-radius: 10px;
+}
+.cardtimerow {
+    color: #a7b5ff;
+    margin-top: 10px;
+  }
+  .blogdetailbody .blogownername{
+    background: #fae7f6;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .blogownername{
+    color: #090d58;
+    font-weight: 600;
+    margin-right: 30px;
+  }
+  .blogownername svg, .calicon{
+    margin-right: 10px;
+    color: #fb5ea3;
+  }
+  .blogdetailbody .cardcalndr {
+    background: #fae7f6;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .cardcalndr {
+    font-weight: 600;
+    font-size: 17px;
+  }
+
+  .blogdetailheading h1 {
+    color: #090d58;
+    font-weight: 600;
+    text-transform: capitalize;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 30px;
+}
+.blogdetailpara p {
+    text-align: justify;
+    margin: 15px 0;
+    color: #a7b5ff;
+    font-weight: 600;
+}
+.blognext{
+    padding: 15px;
+    box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+}
+.blognexttitle{
+    display: flex;
+    align-items: center;
+}
+.blognexttitle h5{
+    color: #090d58;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.blognexttitle span{
+    color: #a7b5ff;
+}
+.blognextdes p{
+    color: #a7b5ff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 2;
+}
+/* post start */
+.blogcatname{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+    .blogcatname h6{
+        color: #a7b5ff;
+        font-weight: 600;
+    }
+    .blogcatname:hover h6{
+        transform: translate(-5%,19%);
+        color: #fff;       
+    }
+    .blogcatname:hover{
+        background: #fb2e86;
+        justify-content: center; 
+        align-items: center;
+        border-radius: 5px;
+    }
+        .blogdetailheading h5{
+            font-weight: 700;
+            color: #090d58;
+        }
+        .blogsearch{
+            position: relative;
+        }
+        .blogsearch svg{
+            position: absolute;
+            top: 4px;
+            right: 13px;
+            font-size: 30px;
+            cursor: pointer;
+            color: #090d58;
+        }
+        .postlink{
+            color: #090d58 !important;
+            text-decoration: none !important;
+        }
+        .blogdetailul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .blogdetailul li{
+            display: flex;
+            align-items: flex-start;
+        }
+        .postimg{
+            margin-right: 10px;
+        }
+        .postimg img{
+            border-radius: 6px;            
+        }
+        .postdetail{
+            flex-direction: column;
+        }
+        .postdetailname h6{
+            font-weight: 600;
+            color: #a7b5ff;
+        }
+        .cardcalndr.postcardcalndr{
+            font-size: 14px;
+            margin: 0;
+        }.blogproductname{
+            text-align: center;
+        }
+        .blogproductname h6{
+            color: #090d58;
+            font-weight: 600;
+        }
+        .blogproductname p{
+            color: #090d58;
+        }
+        .blogsocialmedia ul{
+            display: flex;
+            align-items: center;
+        }
+        .blogtags h5{
+            color: #a7b5ff;
+            margin: 15px 5px;
+            width: 25%;
+            font-size: 16px;
+            float: left;
+            font-weight: 600;
+        }
+        .blogtags h5:hover{
+            color: #fb2e86;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    /* post end */
+
+    /* Blog page start */
+.blogintwoline{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: #939292;
+}
+.blogreadmore a {
+    color: #090d58;
+    text-decoration: none;
+    font-weight: 600;
+}
+.blogreadmore a:hover {
+    color: #090d58;
+    text-decoration: underline;
+}
+.blogreadglobe{
+    color: #fb2e86;
+}
+    /* Blog Page end */

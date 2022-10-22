@@ -1,0 +1,25 @@
+.content_faq h3{
+    font-weight: 600;
+}
+.panel.panel-default {
+    border: 1px solid transparent !important;
+
+}
+.panel-title a {
+    color: #090d58;
+    text-decoration: none;
+    font-weight: 600;
+}
+.panel-body{
+    color: #a7b5ff;
+}
+
+/* faq contact */
+.faqcontactbox{
+    padding: 25px;
+    background: #f8f8fd;
+    border-radius: 10px;
+}
+.form_field_wrap input{
+    color: #a6adca;
+}
